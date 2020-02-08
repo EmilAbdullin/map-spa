@@ -5,7 +5,6 @@
         v-for="(log,key) of logs"
         :key="key"
         v-bind:log="log"
-        v-on:addnewlog="addNewLog"
         />
     </div>
 </template>
@@ -17,15 +16,9 @@ export default {
     props:['logs'],
     components:{
         Log
-    },
-    methods:{
-        addNewLog(logItem){
-            console.log(logItem);
-        }
     }
 }
 </script>
-
 
 
 <style scoped>
@@ -34,7 +27,6 @@ export default {
     max-width: 768px;
     margin: 0 auto;
 }
-
 .subheading{
     font-size:1.5em;
     text-align: center;

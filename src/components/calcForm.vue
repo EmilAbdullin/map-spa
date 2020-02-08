@@ -52,7 +52,6 @@ export default{
                     let month = new String(dateNow.getMonth() + 1).length === 1 ? '0' + new String(dateNow.getMonth() + 1) : new String(dateNow.getMonth() + 1);
                     let day = new String(dateNow.getDate()).length === 1 ? '0' + new String(dateNow.getDate()) : new String(dateNow.getDate());
                     let date = month + '/' + day + ' в ' + hours + ':' + minutes;
-                    console.log(day.length);
                     const log = {
                         date,
                         firstPoint,
@@ -145,4 +144,5 @@ export default{
         padding:12.5px;
     }
 }
+
 </style>

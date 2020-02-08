@@ -29,6 +29,7 @@ export default {
 
 
 <style scoped>
+
     .add-input-form{
         background:none;
         border-radius:100%;

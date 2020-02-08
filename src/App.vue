@@ -42,7 +42,7 @@ export default {
   components: {
     Map,listCalcForm,logBook
   },
-   methods:{
+  methods:{
       addNewForm(){
         if(typeof this.forms[0] !== 'undefined'){
           this.currentForms.push(this.forms[0]);
@@ -55,8 +55,7 @@ export default {
       createNewLog(log){
         this.logs.push(log);
       }
-
-}
+  }
 }
 </script>
 
@@ -82,7 +81,6 @@ export default {
   border:1px solid #ececec;
   margin:25px auto;
 }
-
 
 </style>
 

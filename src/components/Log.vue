@@ -6,27 +6,31 @@
     </div>
 </template>
 
-
 <script>
 export default {
     props:['log']
 }
 </script>
 
-
-
 <style scoped>
+
+.log-item-wrapper{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px #f6f6f6;
+    color: #3C4043;
+    font-weight: bold;
+    margin-bottom:15px;
+}
+@media (max-width: 768px) {
     .log-item-wrapper{
-        display: flex;
-        width: 75%;
-        justify-content: space-between;
-        padding: 15px;
-        border: 1px solid #ececec;
-        border-radius: 5px;
-        box-shadow: 0 0 10px 1px #f6f6f6;
-        color: #3C4043;
-        font-weight: bold;
-        margin-bottom:15px;
+        width:100%;
+        padding:15px;
     }
+}
 
 </style>
