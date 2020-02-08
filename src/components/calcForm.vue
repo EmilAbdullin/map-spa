@@ -63,9 +63,11 @@ export default{
                 }).catch(err =>{
                     alert('Возможно вы ввели неправильные данные!Попробуйте еще раз')
                     this.clearInput();
+                    this.isDisabled = false;
                 })
             }).catch(err =>{
                 alert('Возможно вы ввели неправильные данные!Попробуйте еще раз')
+                this.isDisabled = false;
                 this.clearInput();
             })
         },

@@ -24,7 +24,7 @@ export default {
     box-shadow: 0 0 10px 1px #f6f6f6;
     color: #3C4043;
     font-weight: bold;
-    margin-bottom:15px;
+    margin:15px auto;
 }
 @media (max-width: 768px) {
     .log-item-wrapper{
